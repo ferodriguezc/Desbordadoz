@@ -22,9 +22,10 @@ body {
     text-align: center;
 }
 
-.imagen{
+.logo{
     border: solid;
     border-radius: 50%;
+    margin-top: 20px;
 
 }
 .imagen_i{
@@ -66,7 +67,7 @@ a {
 }
 
 .carrusel{
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 
@@ -90,5 +91,12 @@ a {
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
         background-color: #000; /* Negro */
+    }
+}
+
+@media (min-width: 600px) {
+    /* Cambiar el color de fondo de los botones del carrusel a negro */
+    .carrusel {
+       margin-top:10% ;
     }
 }
