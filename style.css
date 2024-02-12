@@ -1,0 +1,76 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content {
+    flex: 1 0 auto;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-around;
+
+    text-align: center;
+}
+
+.imagen{
+    border: solid;
+    border-radius: 50%;
+
+}
+.imagen_i{
+    border: solid black;
+    border-radius: 50%;
+    width: 35px;
+    margin: 6px;
+
+}
+
+a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Mantiene el color del texto predeterminado */
+}
+
+.articulo{
+    display: flex;
+  
+}
+
+
+.principal{
+  margin: 10%;
+    text-align: center;
+}
+
+
+.pie{
+    justify-content: center;
+    width: 100%;
+    height:100%;
+    text-align: center;
+    background-color: rgb(2, 128, 134);
+}
+
+#textopie{
+    margin: 20px;
+    font-size: small;
+    color: aliceblue;
+}
+
+.carrusel{
+    margin-top: 30%;
+}
+
+button{
+
+    border-radius: 100px;
+}
