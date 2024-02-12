@@ -42,7 +42,6 @@ a {
 
 .articulo{
     display: flex;
-  
 }
 
 
@@ -70,7 +69,26 @@ a {
     margin-top: 30%;
 }
 
-button{
 
-    border-radius: 100px;
+
+.carousel-inner img {
+    max-width: 400px; /* ajusta el valor según sea necesario */
+    margin: auto; /* centrar la imagen horizontalmente */
+}
+
+
+
+/* Estilo predeterminado para los botones del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+   
+}
+
+/* Media query para pantallas con un ancho superior a 500 píxeles */
+@media (min-width: 600px) {
+    /* Cambiar el color de fondo de los botones del carrusel a negro */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: #000; /* Negro */
+    }
 }
